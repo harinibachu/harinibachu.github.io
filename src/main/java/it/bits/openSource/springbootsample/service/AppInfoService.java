@@ -47,6 +47,8 @@ public class AppInfoService {
         List<Team> team = new ArrayList<>();
         Team vivek = new Team("VIVEK KR","2020MT93523");
         team.add(vivek);
+	Team harini = new Team("HARINI BACHU","2020MT93528");
+        team.add(harini);
         appInfo.setTeam(team);
         return appInfo;
     }
